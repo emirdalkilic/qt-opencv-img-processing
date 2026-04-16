@@ -1,6 +1,7 @@
 #include "MainWindow.h"
 
 #include <QFileDialog>
+#include <QGraphicsDropShadowEffect>
 #include <QGridLayout>
 #include <QHBoxLayout>
 #include <QImage>
@@ -72,18 +73,26 @@ void MainWindow::setupUi()
     auto *imagesLayout = new QGridLayout();
     auto *heroLayout = new QHBoxLayout();
     auto *heroTextLayout = new QVBoxLayout();
+    auto *logoCard = new QWidget(this);
+    auto *logoCardLayout = new QHBoxLayout(logoCard);
+    auto *logoLabel = new QLabel(logoCard);
+    const QPixmap logoPixmap("/Users/emirdalkilic/Documents/New project/arvis.png");
 
-    auto *logoLabel = new QLabel("CV", this);
-    logoLabel->setFixedSize(88, 88);
-    logoLabel->setAlignment(Qt::AlignCenter);
-    logoLabel->setStyleSheet(
-        "QLabel {"
-        "background-color: #c62828;"
-        "color: white;"
-        "font-size: 28px;"
-        "font-weight: 800;"
-        "border-radius: 44px;"
+    logoCard->setFixedSize(190, 116);
+    logoCard->setStyleSheet(
+        "QWidget {"
+        "background-color: white;"
+        "border-radius: 24px;"
         "}"
+    );
+    logoCardLayout->setContentsMargins(18, 18, 18, 18);
+    logoCardLayout->addWidget(logoLabel);
+
+    logoLabel->setFixedSize(154, 80);
+    logoLabel->setAlignment(Qt::AlignCenter);
+    logoLabel->setStyleSheet("background: transparent;");
+    logoLabel->setPixmap(
+        logoPixmap.scaled(154, 80, Qt::KeepAspectRatio, Qt::SmoothTransformation)
     );
 
     auto *titleLabel = new QLabel("Image Processing Studio", this);
@@ -124,7 +133,7 @@ void MainWindow::setupUi()
 
     openButton->setStyleSheet(
         "QPushButton {"
-        "background-color: #c62828;"
+        "background-color: orange;"
         "color: white;"
         "font-size: 15px;"
         "font-weight: 700;"
@@ -132,12 +141,18 @@ void MainWindow::setupUi()
         "padding: 10px 18px;"
         "}"
         "QPushButton:hover {"
-        "background-color: #ad2222;"
+        "background-color: orange;"
         "}"
         "QPushButton:pressed {"
-        "background-color: #8e1c1c;"
+        "background-color: #cc8400;"
         "}"
     );
+
+    auto *buttonShadow = new QGraphicsDropShadowEffect(this);
+    buttonShadow->setBlurRadius(24);
+    buttonShadow->setOffset(0, 0);
+    buttonShadow->setColor(QColor(255, 215, 0, 180));
+    openButton->setGraphicsEffect(buttonShadow);
 
     for (QLabel *label : {
                           originalImageLabel,
@@ -183,7 +198,7 @@ void MainWindow::setupUi()
 
     heroTextLayout->addWidget(titleLabel);
     heroTextLayout->addWidget(infoLabel);
-    heroLayout->addWidget(logoLabel, 0, Qt::AlignTop);
+    heroLayout->addWidget(logoCard, 0, Qt::AlignTop);
     heroLayout->addLayout(heroTextLayout, 1);
     heroLayout->setSpacing(18);
 

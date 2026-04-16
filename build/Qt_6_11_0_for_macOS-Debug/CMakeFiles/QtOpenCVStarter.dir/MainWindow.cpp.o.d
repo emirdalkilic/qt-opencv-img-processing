@@ -1087,11 +1087,14 @@ CMakeFiles/QtOpenCVStarter.dir/MainWindow.cpp.o: \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QGraphicsDropShadowEffect \
+  /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qgraphicseffect.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtGui.framework/Headers/QImage \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMessageBox \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \

@@ -1049,6 +1049,7 @@ CMakeFiles/QtOpenCVStarter.dir/MainWindow.cpp.o: /Users/emirdalkilic/Documents/N
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QFileDialog \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMessageBox \
@@ -4342,6 +4343,8 @@ QtOpenCVStarter_autogen/mocs_compilation.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/_types/_uint16_t.h:
+
+/Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/iterator:
 

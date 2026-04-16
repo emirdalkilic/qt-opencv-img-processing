@@ -21,6 +21,7 @@ add_executable(QtOpenCVStarter
     main.cpp
     MainWindow.cpp
     MainWindow.h
+    ../../Downloads/media/arvis.png
 )
 
 target_link_libraries(QtOpenCVStarter

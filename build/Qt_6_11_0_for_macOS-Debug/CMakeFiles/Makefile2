@@ -80,8 +80,8 @@ clean: CMakeFiles/QtOpenCVStarter_autogen.dir/clean
 # Target rules for target CMakeFiles/QtOpenCVStarter.dir
 
 # All Build rule for target.
-CMakeFiles/QtOpenCVStarter.dir/all: CMakeFiles/QtOpenCVStarter_autogen_timestamp_deps.dir/all
 CMakeFiles/QtOpenCVStarter.dir/all: CMakeFiles/QtOpenCVStarter_autogen.dir/all
+CMakeFiles/QtOpenCVStarter.dir/all: CMakeFiles/QtOpenCVStarter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtOpenCVStarter.dir/build.make CMakeFiles/QtOpenCVStarter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtOpenCVStarter.dir/build.make CMakeFiles/QtOpenCVStarter.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=1,2,3,4 "Built target QtOpenCVStarter"

@@ -1024,6 +1024,7 @@ CMakeFiles/QtOpenCVStarter.dir/MainWindow.cpp.o: /Users/emirdalkilic/Documents/N
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QFileDialog \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMessageBox \
@@ -3255,6 +3256,8 @@ QtOpenCVStarter_autogen/EWIEGA46WW/moc_MainWindow.cpp:
 /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMessageBox:
 
 /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QLabel:
+
+/Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
 /Users/emirdalkilic/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QGridLayout:
 
