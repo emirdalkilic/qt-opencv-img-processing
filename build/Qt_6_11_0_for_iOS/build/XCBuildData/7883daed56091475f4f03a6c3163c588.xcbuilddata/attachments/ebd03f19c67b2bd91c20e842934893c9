@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  make -f /Users/emirdalkilic/Documents/New\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  make -f /Users/emirdalkilic/Documents/New\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  make -f /Users/emirdalkilic/Documents/New\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  make -f /Users/emirdalkilic/Documents/New\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+

@@ -1,0 +1,4 @@
+/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir
+/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir
+/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/ALL_BUILD.dir
+/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/ZERO_CHECK.dir

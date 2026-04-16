@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtOpenCVStarter_FILE /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_macOS-Debug/QtOpenCVStarter)
+set(__QT_DEPLOY_TARGET_QtOpenCVStarter_TYPE EXECUTABLE)

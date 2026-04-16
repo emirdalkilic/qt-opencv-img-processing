@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+Target 'ALL_BUILD' in project 'QtOpenCVStarter'
+➜ Explicit dependency on target 'QtOpenCVStarter' in project 'QtOpenCVStarter'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'QtOpenCVStarter'
+Target 'QtOpenCVStarter' in project 'QtOpenCVStarter'
+➜ Explicit dependency on target 'QtOpenCVStarter_autogen' in project 'QtOpenCVStarter'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'QtOpenCVStarter'
+Target 'QtOpenCVStarter_autogen' in project 'QtOpenCVStarter'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'QtOpenCVStarter'
+Target 'ZERO_CHECK' in project 'QtOpenCVStarter' (no dependencies)

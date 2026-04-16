@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4F99EE5DE0B1766F73DC69E8 /* QtOpenCVStarter_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 003BE2C2BF484273BB38C6ED /* Build configuration list for PBXAggregateTarget "QtOpenCVStarter_autogen" */;
+			buildPhases = (
+				843BBA55E3E4BF469F063320 /* Generate CMakeFiles/QtOpenCVStarter_autogen */,
+			);
+			dependencies = (
+				3D7333641ECF4902861B0FEB /* PBXTargetDependency */,
+			);
+			name = QtOpenCVStarter_autogen;
+			productName = QtOpenCVStarter_autogen;
+		};
+		69303700627B819FD92ED9B9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54B88F0183AB479EB46C7123 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A3880ADDC7F37BC6DDACE7AC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C5B84C72D943123614C854B9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 23C1424A28A84A0B8F1206C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A51DAC2FCA10450D2C0634BC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				96E2EBEABE7E4132A22140F3 /* PBXTargetDependency */,
+				2383DFFE5AC347D78E7924B4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		172B2FAF127145E3B1EFB608 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 26E3E967415D4698B4C61F76 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist */; };
+		1D5FAAC3139645E8A8FB802D /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6021BD21526A486EA49AEA76 /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */; };
+		3C69BE65CBD64D73B3174CD3 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework */ = {isa = PBXBuildFile; fileRef = 648EE4E16F9F49D79D57DE01 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework */; };
+		53986A55E04C4674AA6BE258 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework */ = {isa = PBXBuildFile; fileRef = 774C2AF7FEF3449B8D310539 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework */; };
+		65E0A6DA53674B968A979DBF /* /Users/emirdalkilic/Documents/New project/MainWindow.h */ = {isa = PBXBuildFile; fileRef = 95A54F25554349E1AA870989 /* /Users/emirdalkilic/Documents/New project/MainWindow.h */; };
+		7FFE911EE194477D97C56C03 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework */ = {isa = PBXBuildFile; fileRef = 70310E5B8CB34D338FFCDF24 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework */; };
+		9E5F2E3A208C4E62BAAD6A64 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework */ = {isa = PBXBuildFile; fileRef = D8BD41F82BDA40D1B8669486 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework */; };
+		B9F0B8092B4F47A3881A0165 /* /Users/emirdalkilic/Documents/New project/main.cpp */ = {isa = PBXBuildFile; fileRef = 5B73FE93163440849C15A492 /* /Users/emirdalkilic/Documents/New project/main.cpp */; };
+		CE3A90480C9240E594D3BEAC /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework */ = {isa = PBXBuildFile; fileRef = D30D9F6355AE43CEBCA88DCC /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework */; };
+		FB518A8A52194532B1A71245 /* /Users/emirdalkilic/Documents/New project/MainWindow.cpp */ = {isa = PBXBuildFile; fileRef = 0BC15DAE92D64DFA859BA719 /* /Users/emirdalkilic/Documents/New project/MainWindow.cpp */; };
+		FD70A921B4EC4C55BC0EF221 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 3E15D47219BB41FCAB5B8770 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C9730D1F2AA4418B155E3D9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		73F583F733D8434BB8705601 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8571D5F710FA481C8D207394 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EE6531E9E2DA4A04B06CE2EF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5298FB41019F49BA978C9A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD91B97843904CBBB9CA3D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69303700627B819FD92ED9B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		591C1EBEF7D44B00A39A24BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD91B97843904CBBB9CA3D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F99EE5DE0B1766F73DC69E8;
+			remoteInfo = QtOpenCVStarter_autogen;
+		};
+		7BFB4EF370004F89809A8480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD91B97843904CBBB9CA3D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69303700627B819FD92ED9B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		839752C9F1F749FB9B400F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD91B97843904CBBB9CA3D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E467C691364F780DB1ACFD05;
+			remoteInfo = QtOpenCVStarter;
+		};
+		94492C0C4B584E5E9AC9A3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD91B97843904CBBB9CA3D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69303700627B819FD92ED9B9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BC15DAE92D64DFA859BA719 /* /Users/emirdalkilic/Documents/New project/MainWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MainWindow.cpp; path = MainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		26E3E967415D4698B4C61F76 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		3E15D47219BB41FCAB5B8770 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		5B73FE93163440849C15A492 /* /Users/emirdalkilic/Documents/New project/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		6021BD21526A486EA49AEA76 /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		648EE4E16F9F49D79D57DE01 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtSvg.framework; path = /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework; sourceTree = "<absolute>"; };
+		70310E5B8CB34D338FFCDF24 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		774C2AF7FEF3449B8D310539 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		95A54F25554349E1AA870989 /* /Users/emirdalkilic/Documents/New project/MainWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MainWindow.h; path = MainWindow.h; sourceTree = SOURCE_ROOT; };
+		9EB7D4D553D641829A51490C /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0F6D67FDC7B41D08673E49C /* QtOpenCVStarter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = QtOpenCVStarter; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30D9F6355AE43CEBCA88DCC /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		D8BD41F82BDA40D1B8669486 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		EE84A2FDAE3444FBBA6EE15A /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8312D4F23044878A5C0F42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E31130623194D07833EDCA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26E3E967415D4698B4C61F76 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2684E3FD51544E20A8827B8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6D67FDC7B41D08673E49C /* QtOpenCVStarter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3C0775E2E44F48A7B3F107 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		40AE3F24A26046769F39CB36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30D9F6355AE43CEBCA88DCC /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework */,
+				70310E5B8CB34D338FFCDF24 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework */,
+				D8BD41F82BDA40D1B8669486 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework */,
+				648EE4E16F9F49D79D57DE01 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework */,
+				774C2AF7FEF3449B8D310539 /* /Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46A21C412BC84A2C8BEFDA54 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A54F25554349E1AA870989 /* /Users/emirdalkilic/Documents/New project/MainWindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7DF278FC318543FC9B17D9C9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8A3F65D9D12240A8A8DDBC20 /* QtOpenCVStarter_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C0775E2E44F48A7B3F107 /* CMake Rules */,
+				EE84A2FDAE3444FBBA6EE15A /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */,
+			);
+			name = QtOpenCVStarter_autogen;
+			sourceTree = "<group>";
+		};
+		95FE97A718D248BABD65A7BC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC15DAE92D64DFA859BA719 /* /Users/emirdalkilic/Documents/New project/MainWindow.cpp */,
+				3E15D47219BB41FCAB5B8770 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp */,
+				5B73FE93163440849C15A492 /* /Users/emirdalkilic/Documents/New project/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9C8A185C23684B4E94F4C609 /* QtOpenCVStarter */ = {
+			isa = PBXGroup;
+			children = (
+				95FE97A718D248BABD65A7BC /* Source Files */,
+				46A21C412BC84A2C8BEFDA54 /* Header Files */,
+				1E31130623194D07833EDCA9 /* Resources */,
+				6021BD21526A486EA49AEA76 /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */,
+			);
+			name = QtOpenCVStarter;
+			sourceTree = "<group>";
+		};
+		B399A6ADFED04BD89669C4E3 = {
+			isa = PBXGroup;
+			children = (
+				9C8A185C23684B4E94F4C609 /* QtOpenCVStarter */,
+				8A3F65D9D12240A8A8DDBC20 /* QtOpenCVStarter_autogen */,
+				F648FF169E2F4BE1B7D48F3C /* ALL_BUILD */,
+				2684E3FD51544E20A8827B8B /* Products */,
+				40AE3F24A26046769F39CB36 /* Frameworks */,
+				C2467FE2336147318D978C1B /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		C2467FE2336147318D978C1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F648FF169E2F4BE1B7D48F3C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7DF278FC318543FC9B17D9C9 /* CMake Rules */,
+				9EB7D4D553D641829A51490C /* /Users/emirdalkilic/Documents/New project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E467C691364F780DB1ACFD05 /* QtOpenCVStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7E7BA5F25B4AC59426C442 /* Build configuration list for PBXNativeTarget "QtOpenCVStarter" */;
+			buildPhases = (
+				95B2A9E1351D493EA6470897 /* Sources */,
+				C8312D4F23044878A5C0F42F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B83D5A9A9C46D29EEF2CE2 /* PBXTargetDependency */,
+				AE899400D3A84C4CAEB1F8DB /* PBXTargetDependency */,
+			);
+			name = QtOpenCVStarter;
+			productName = QtOpenCVStarter;
+			productReference = A0F6D67FDC7B41D08673E49C /* QtOpenCVStarter */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD91B97843904CBBB9CA3D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = E5C25629F9F64DCFA9533040 /* Build configuration list for PBXProject "QtOpenCVStarter" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				73F583F733D8434BB8705601 /* Debug */,
+				8571D5F710FA481C8D207394 /* Release */,
+				0C9730D1F2AA4418B155E3D9 /* MinSizeRel */,
+				EE6531E9E2DA4A04B06CE2EF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B399A6ADFED04BD89669C4E3;
+			projectDirPath = "/Users/emirdalkilic/Documents/New project";
+			projectRoot = "";
+			targets = (
+				C5B84C72D943123614C854B9 /* ALL_BUILD */,
+				E467C691364F780DB1ACFD05 /* QtOpenCVStarter */,
+				4F99EE5DE0B1766F73DC69E8 /* QtOpenCVStarter_autogen */,
+				69303700627B819FD92ED9B9 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		614FE31CE26CD05226E14375 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		843BBA55E3E4BF469F063320 /* Generate CMakeFiles/QtOpenCVStarter_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/QtOpenCVStarter_autogen";
+			outputPaths = (
+"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen","/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" RelWithDebInfo
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" RelWithDebInfo
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" RelWithDebInfo
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json\" RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3880ADDC7F37BC6DDACE7AC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  make -f /Users/emirdalkilic/Documents/New\\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  make -f /Users/emirdalkilic/Documents/New\\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  make -f /Users/emirdalkilic/Documents/New\\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  make -f /Users/emirdalkilic/Documents/New\\ project/build/Qt_6_11_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		A51DAC2FCA10450D2C0634BC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B2A9E1351D493EA6470897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB518A8A52194532B1A71245 /* /Users/emirdalkilic/Documents/New project/MainWindow.cpp */,
+				FD70A921B4EC4C55BC0EF221 /* /Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/mocs_compilation.cpp */,
+				B9F0B8092B4F47A3881A0165 /* /Users/emirdalkilic/Documents/New project/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2383DFFE5AC347D78E7924B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69303700627B819FD92ED9B9 /* ZERO_CHECK */;
+			targetProxy = 5298FB41019F49BA978C9A24 /* PBXContainerItemProxy */;
+		};
+		3D7333641ECF4902861B0FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69303700627B819FD92ED9B9 /* ZERO_CHECK */;
+			targetProxy = 94492C0C4B584E5E9AC9A3D8 /* PBXContainerItemProxy */;
+		};
+		96E2EBEABE7E4132A22140F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E467C691364F780DB1ACFD05 /* QtOpenCVStarter */;
+			targetProxy = 839752C9F1F749FB9B400F92 /* PBXContainerItemProxy */;
+		};
+		AE899400D3A84C4CAEB1F8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69303700627B819FD92ED9B9 /* ZERO_CHECK */;
+			targetProxy = 7BFB4EF370004F89809A8480 /* PBXContainerItemProxy */;
+		};
+		C6B83D5A9A9C46D29EEF2CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F99EE5DE0B1766F73DC69E8 /* QtOpenCVStarter_autogen */;
+			targetProxy = 591C1EBEF7D44B00A39A24BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EA1100EF8141F3A58F9FF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		167B7F32F001439DB0BCE4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/include_Release\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/opencv/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -no_warn_duplicate_libraries '-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o",/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/QtWidgets,/opt/homebrew/opt/opencv/lib/libopencv_gapi.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stitching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_alphamat.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_aruco.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bgsegm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bioinspired.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ccalib.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dpm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_face.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_freetype.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_fuzzy.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_hfs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_img_hash.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_intensity_transform.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_line_descriptor.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_mcc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_quality.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rapid.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_reg.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rgbd.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_saliency.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_sfm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_signal.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stereo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_structured_light.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_surface_matching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_tracking.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videostab.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_viz.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_wechat_qrcode.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xfeatures2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xobjdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xphoto.4.13.0.dylib,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,"-framework OpenGLES","-framework ImageIO","-framework CoreText","-framework Accelerate","-framework CoreText","-framework Accelerate",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledFreetype.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibpng.a,"-framework AudioToolbox","-framework CoreGraphics","-framework QuartzCore","-framework Metal","-framework Photos",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/QtCore,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-framework UniformTypeIdentifiers","-lm",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit",/opt/homebrew/opt/opencv/lib/libopencv_shape.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_highgui.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_datasets.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_plot.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_text.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ml.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_phase_unwrapping.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_optflow.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ximgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_video.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videoio.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgcodecs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_calib3d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_features2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_flann.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_photo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_core.4.13.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Users/emirdalkilic/Qt/6.11.0/ios/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/opencv/4.13.0_7/include/opencv4,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/Headers,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/Headers,"/Users/emirdalkilic/Qt/6.11.0/ios/mkspecs/macx-ios-clang",/Users/emirdalkilic/Qt/6.11.0/ios/include,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build/QtOpenCVStarter.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1E6C9EB6A54E4B0BB5B8BB0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2051EB062A1A4268B7D5B1B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		336D5BCFB551471FA0F3E478 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9HTN67C73;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build";
+			};
+			name = MinSizeRel;
+		};
+		39A4C43993A145C591E98B21 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/include_MinSizeRel\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/opencv/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -no_warn_duplicate_libraries '-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o",/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/QtWidgets,/opt/homebrew/opt/opencv/lib/libopencv_gapi.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stitching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_alphamat.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_aruco.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bgsegm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bioinspired.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ccalib.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dpm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_face.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_freetype.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_fuzzy.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_hfs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_img_hash.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_intensity_transform.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_line_descriptor.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_mcc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_quality.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rapid.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_reg.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rgbd.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_saliency.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_sfm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_signal.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stereo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_structured_light.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_surface_matching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_tracking.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videostab.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_viz.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_wechat_qrcode.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xfeatures2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xobjdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xphoto.4.13.0.dylib,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,"-framework OpenGLES","-framework ImageIO","-framework CoreText","-framework Accelerate","-framework CoreText","-framework Accelerate",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledFreetype.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibpng.a,"-framework AudioToolbox","-framework CoreGraphics","-framework QuartzCore","-framework Metal","-framework Photos",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/QtCore,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-framework UniformTypeIdentifiers","-lm",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit",/opt/homebrew/opt/opencv/lib/libopencv_shape.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_highgui.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_datasets.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_plot.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_text.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ml.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_phase_unwrapping.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_optflow.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ximgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_video.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videoio.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgcodecs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_calib3d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_features2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_flann.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_photo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_core.4.13.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Users/emirdalkilic/Qt/6.11.0/ios/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/opencv/4.13.0_7/include/opencv4,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/Headers,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/Headers,"/Users/emirdalkilic/Qt/6.11.0/ios/mkspecs/macx-ios-clang",/Users/emirdalkilic/Qt/6.11.0/ios/include,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build/QtOpenCVStarter.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		43CFE78C77784E8ABFED04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		61DC369EB084463FB821A5D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		68B23105D4CC4579A8A609FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		793A1FFA39FA4873AB9C7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7FC6C4FC22D9498BA8C8BE8A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9HTN67C73;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8D8C741BA55C4026865C5BBB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D9A19DA80604040A54E235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_QML_DEBUG,QT_WIDGETS_LIB,QT_CORE_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/include_Debug\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/opencv/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -no_warn_duplicate_libraries '-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Debug/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o",/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/QtWidgets_debug,/opt/homebrew/opt/opencv/lib/libopencv_gapi.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stitching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_alphamat.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_aruco.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bgsegm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bioinspired.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ccalib.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dpm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_face.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_freetype.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_fuzzy.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_hfs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_img_hash.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_intensity_transform.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_line_descriptor.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_mcc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_quality.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rapid.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_reg.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rgbd.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_saliency.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_sfm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_signal.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stereo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_structured_light.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_surface_matching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_tracking.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videostab.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_viz.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_wechat_qrcode.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xfeatures2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xobjdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xphoto.4.13.0.dylib,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui_debug,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL_debug,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg_debug,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui_debug,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL_debug,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg_debug,"-framework OpenGLES","-framework ImageIO","-framework CoreText","-framework Accelerate","-framework CoreText","-framework Accelerate",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledHarfbuzz_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledFreetype_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibpng_debug.a,"-framework AudioToolbox","-framework CoreGraphics","-framework QuartzCore","-framework Metal","-framework Photos",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibjpeg_debug.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/QtCore_debug,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-framework UniformTypeIdentifiers","-lm",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledPcre2_debug.a,"-framework MobileCoreServices","-framework UIKit",/opt/homebrew/opt/opencv/lib/libopencv_shape.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_highgui.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_datasets.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_plot.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_text.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ml.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_phase_unwrapping.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_optflow.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ximgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_video.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videoio.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgcodecs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_calib3d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_features2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_flann.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_photo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_core.4.13.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Users/emirdalkilic/Qt/6.11.0/ios/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/opencv/4.13.0_7/include/opencv4,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/Headers,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/Headers,"/Users/emirdalkilic/Qt/6.11.0/ios/mkspecs/macx-ios-clang",/Users/emirdalkilic/Qt/6.11.0/ios/include,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build/QtOpenCVStarter.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AC6C6A0C355846968D7FC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AD486F29D6AF468695D1C7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9HTN67C73;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build";
+			};
+			name = Debug;
+		};
+		AE03B9AD761240CB8C8138BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B309E28CC39F432F9BEA33A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_QML_DEBUG,QT_WIDGETS_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/QtOpenCVStarter_autogen/include_RelWithDebInfo\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/opencv/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -no_warn_duplicate_libraries '-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o",/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/QtWidgets,/opt/homebrew/opt/opencv/lib/libopencv_gapi.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stitching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_alphamat.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_aruco.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bgsegm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_bioinspired.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ccalib.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dpm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_face.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_freetype.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_fuzzy.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_hfs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_img_hash.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_intensity_transform.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_line_descriptor.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_mcc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_quality.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rapid.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_reg.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_rgbd.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_saliency.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_sfm.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_signal.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_stereo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_structured_light.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_superres.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_surface_matching.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_tracking.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videostab.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_viz.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_wechat_qrcode.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xfeatures2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xobjdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_xphoto.4.13.0.dylib,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/QtGui,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqgif.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqico.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/platforms/libqios.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/iconengines/libqsvgicon.a,/Users/emirdalkilic/Qt/6.11.0/ios/plugins/imageformats/libqsvg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtOpenGL.framework/QtOpenGL,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtSvg.framework/QtSvg,"-framework OpenGLES","-framework ImageIO","-framework CoreText","-framework Accelerate","-framework CoreText","-framework Accelerate",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledFreetype.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibpng.a,"-framework AudioToolbox","-framework CoreGraphics","-framework QuartzCore","-framework Metal","-framework Photos",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledLibjpeg.a,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/QtCore,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-framework UniformTypeIdentifiers","-lm",/Users/emirdalkilic/Qt/6.11.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit",/opt/homebrew/opt/opencv/lib/libopencv_shape.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_highgui.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_datasets.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_plot.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_text.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ml.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_phase_unwrapping.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_optflow.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_ximgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_video.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_videoio.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgcodecs.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_objdetect.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_calib3d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_dnn.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_features2d.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_flann.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_photo.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_imgproc.4.13.0.dylib,/opt/homebrew/opt/opencv/lib/libopencv_core.4.13.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtOpenCVStarter;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Users/emirdalkilic/Qt/6.11.0/ios/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/opencv/4.13.0_7/include/opencv4,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtWidgets.framework/Headers,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtCore.framework/Headers,"/Users/emirdalkilic/Qt/6.11.0/ios/mkspecs/macx-ios-clang",/Users/emirdalkilic/Qt/6.11.0/ios/include,/Users/emirdalkilic/Qt/6.11.0/ios/lib/QtGui.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build/QtOpenCVStarter.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B7EC8AAF3D84408FA5BC117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4548C24CCE5426DA5EF655B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E605B396924C44AC95032048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9HTN67C73;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003BE2C2BF484273BB38C6ED /* Build configuration list for PBXAggregateTarget "QtOpenCVStarter_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE03B9AD761240CB8C8138BB /* Debug */,
+				AC6C6A0C355846968D7FC5C4 /* Release */,
+				1E6C9EB6A54E4B0BB5B8BB0E /* MinSizeRel */,
+				09EA1100EF8141F3A58F9FF3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23C1424A28A84A0B8F1206C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EC8AAF3D84408FA5BC117D /* Debug */,
+				43CFE78C77784E8ABFED04FA /* Release */,
+				C4548C24CCE5426DA5EF655B /* MinSizeRel */,
+				61DC369EB084463FB821A5D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54B88F0183AB479EB46C7123 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793A1FFA39FA4873AB9C7771 /* Debug */,
+				68B23105D4CC4579A8A609FF /* Release */,
+				2051EB062A1A4268B7D5B1B5 /* MinSizeRel */,
+				8D8C741BA55C4026865C5BBB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A7E7BA5F25B4AC59426C442 /* Build configuration list for PBXNativeTarget "QtOpenCVStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9A19DA80604040A54E235D /* Debug */,
+				167B7F32F001439DB0BCE4E5 /* Release */,
+				39A4C43993A145C591E98B21 /* MinSizeRel */,
+				B309E28CC39F432F9BEA33A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5C25629F9F64DCFA9533040 /* Build configuration list for PBXProject "QtOpenCVStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD486F29D6AF468695D1C7E0 /* Debug */,
+				E605B396924C44AC95032048 /* Release */,
+				336D5BCFB551471FA0F3E478 /* MinSizeRel */,
+				7FC6C4FC22D9498BA8C8BE8A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD91B97843904CBBB9CA3D8F /* Project object */;
+}

@@ -1,0 +1,31 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" RelWithDebInfo
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" RelWithDebInfo
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" RelWithDebInfo
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS"
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Debug
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" Release
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" MinSizeRel
+  /Users/emirdalkilic/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/emirdalkilic/Documents/New project/build/Qt_6_11_0_for_iOS/CMakeFiles/QtOpenCVStarter_autogen.dir/AutogenInfo.json" RelWithDebInfo
+fi
+

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtOpenCVStarter_FILE /Users/emirdalkilic/Documents/New project/build/QtOpenCVStarter)
+set(__QT_DEPLOY_TARGET_QtOpenCVStarter_TYPE EXECUTABLE)

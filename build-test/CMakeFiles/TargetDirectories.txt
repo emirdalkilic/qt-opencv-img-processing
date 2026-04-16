@@ -1,0 +1,5 @@
+/Users/emirdalkilic/Documents/New project/build-test/CMakeFiles/QtOpenCVStarter.dir
+/Users/emirdalkilic/Documents/New project/build-test/CMakeFiles/edit_cache.dir
+/Users/emirdalkilic/Documents/New project/build-test/CMakeFiles/rebuild_cache.dir
+/Users/emirdalkilic/Documents/New project/build-test/CMakeFiles/QtOpenCVStarter_autogen_timestamp_deps.dir
+/Users/emirdalkilic/Documents/New project/build-test/CMakeFiles/QtOpenCVStarter_autogen.dir
